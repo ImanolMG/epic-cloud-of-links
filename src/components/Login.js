@@ -80,15 +80,15 @@ class Login extends React.Component{
                                 <div className="d-grid gap-4">
 
                                     <button className="btn btn-primary" type="button" onClick={this.iniciarSesion.bind(this)}>Iniciar sesión
-
-
                                     </button>
 
-                                    <div className="card-footer">
-                                     {/* <Link to='/register'>*/}
-                                            <button type="button" className="btn btn-primary">Registrarse</button>
-                                     {/*   </Link>*/}
-                                    </div>
+                                        <label className="form-label text-center">No tienes una cuenta?
+                                            <Link to='/signup'>
+                                                <label className="text-primary">Registrate</label>
+                                            </Link>
+                                        </label>
+
+
                                 </div>
                             </div>
                         </div>
