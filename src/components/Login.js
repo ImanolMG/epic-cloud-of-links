@@ -56,22 +56,21 @@ class Login extends React.Component{
                             </div>
                             <div className="label-error" ref={ self => this.label = self}></div>
                             <div className="label-error" ref={ self => this.pass = self}> </div>
-                            <div className="card-body" onChange={this.changeField.bind(this)}>
-                                <div className="input-group mb-4"  onChange={this.changeField.bind(this)}>
+                            <div className="card-body" >
+                                <label htmlFor="exampleFormControlInput1" className="form-label">Nombre de usuario</label>
+                                <div className="input-group mb-4"  >
                                     <span className="input-group-text" id="basic-addon1 " onChange={this.changeField.bind(this)}>👤</span>
-                                    <input className="input inputLogin" type="text"
-                                           name="username"
+                                    <input  type="email" className="form-control" id="exampleFormControlInput1" name="username"
                                            id="username"
                                            placeholder="Nombre de Usuario"
                                            value={this.state.username}
                                            onChange={this.changeField.bind(this)}
                                            />
                                 </div>
-
+                                <label htmlFor="exampleFormControlInput1" className="form-label">Contraseña</label>
                                 <div className="input-group mb-4">
                                     <span className="input-group-text" id="basic-addon1 tarjeta_login">🔒</span>
-                                    <input className="input inputLogin" type="password"
-                                           name="password"
+                                    <input type="password" className="form-control" id="exampleFormControlInput1" name="password"
                                            id="password"
                                            placeholder="Contraseña"
                                            value={this.state.password}
