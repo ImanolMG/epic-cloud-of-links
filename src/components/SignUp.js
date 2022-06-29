@@ -155,10 +155,13 @@ class SignUp extends React.Component{
                                     <div ref={self => this.messageError = self} className="text-warning"></div>
                                     <button className="btn btn-primary" type="button"  onClick={this.crearCuenta.bind(this)}>Registrarse
                                     </button >
-                                    <label  className="form-label">Ya tienes una cuenta?</label>
-                                    <Link to='/'>
-                                    <button className="btn btn-primary">Iniciar Sesion</button>
+                                    <label  className="form-label text-center" >Ya tienes una cuenta?
+
+                                        <Link to='/'>
+                                            <label class="text-primary"> Iniciar Sesion</label>
                                     </Link>
+                                    </label>
+
                                 </div>
                             </div>
                         </div>
