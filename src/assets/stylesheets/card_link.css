@@ -1,0 +1,68 @@
+#titulo-card-turismo{
+    position: relative;
+    top:-80px;
+    font-size: 20px;
+    left: 180px;
+
+}
+#ubicacion-card-turismo{
+    position: relative;
+    top:-70px;
+    left: 180px;
+    color: #8f918c;
+}
+#container-card-turismo{
+    background-color: white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    width: 380px;
+    height: 170px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
+    0 17px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+#imagen-card-turismo{
+
+    top:20px;
+    left: 20px;
+    position: relative;
+
+width: 150px;
+    height: 100px;
+}
+
+#boton-ver-mas-turismo{
+    top:-30px;
+    width: 180px;
+    height: 35px;
+    left: 185px;
+    background-color: #082d3d;
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+}
+#boton-ver-mas-turismo:hover{
+
+
+    background-color: white;
+    color: black;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.24),
+    0 17px 40px 0 rgba(0, 0, 0, 0.19);
+    border: black;
+
+}
+#a-boton{
+    position: relative;
+    left: 185px;
+    top:-30px;
+}
+
+#container-cards-turismo{
+    position: relative;
+display: flex;
+    flex-flow: row wrap;
+
+
+}
