@@ -1,0 +1,121 @@
+.principal-link{
+    background-image: url('https://cdn.discordapp.com/attachments/948305576302104668/991864895387729920/pexels-gradienta-7135037.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#container-link{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+
+}
+
+#title-link{
+    width: 35%;
+    background: none;
+    color: white;
+
+    border-color: #C50C1E;
+}
+
+#text-area-link{
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+#group-buttons{
+    position: absolute;
+   right: 0%;
+
+
+}
+#button-guardar{
+
+width: 120px;
+    height: 40px;
+    border-radius: 38px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+   background-color: #00B6B3;
+    border: none;
+    color: white;
+    margin: 0px 10px  0px 0px ;
+}
+#button-guardar-nuevo{
+
+    width: 120px;
+    height: 40px;
+    border-radius: 38px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-color: #00B6B3;
+    border: none;
+    color: white;
+    margin: 0px 10px  0px 0px ;
+}
+#button-eliminar{
+    width: 120px;
+    height: 40px;
+    background: #BC0E25;
+    border-radius: 38px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border: none;
+    color: white;
+}
+
+#container-title{
+
+}
+
+#selection-category{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-color: #160920;
+    border-color: #C50C1E;
+    color: white;
+}
+
+#button-copiar{
+    width: 120px;
+    height: 40px;
+    background: #160920;
+    border-radius: 38px;
+    margin: 0px 10px  0px 0px ;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border-color: #C50C1E;
+    color: white;
+}
+
+#button-descargar-txt{
+    width: 120px;
+    height: 40px;
+    background: #160920;
+    border-radius: 38px;
+    margin: 0px 10px  0px 0px ;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border-color: #C50C1E;
+    color: white;
+}
+#button-compartir{
+    width: 120px;
+    height: 40px;
+    background: #160920;
+    border-radius: 38px;
+    margin: 0px 10px  0px 0px ;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border-color: #C50C1E;
+    color: white;
+}
+#button-cancelar{
+
+    width: 120px;
+    height: 40px;
+    border-radius: 38px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background: #BC0E25;
+    border: none;
+    color: white;
+    margin: 0px 10px  0px 0px ;
+}
