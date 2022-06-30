@@ -3,6 +3,7 @@ import Login from '../components/Login';
 import SignUp from "./SignUp";
 import ViewLink from "./viewLink";
 import Header from "./Header";
+import MyLinks from "./MyLinks";
 import {
     BrowserRouter,
     Routes ,
@@ -15,7 +16,7 @@ function App() {
           <Route path='/signup' element={<SignUp/>} />
             <Route path='/login' element={<Login/>} />
             <Route path='/link' element={<ViewLink/>} />
-            <Route path='/' element={<Header/>} />
+            <Route path='/' element={<MyLinks/>} />
         </Routes>
       </BrowserRouter>
   );
