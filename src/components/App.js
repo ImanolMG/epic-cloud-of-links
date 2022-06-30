@@ -4,6 +4,7 @@ import SignUp from "./SignUp";
 import ViewLink from "./viewLink";
 import Header from "./Header";
 import MyLinks from "./MyLinks";
+import Home from "../pages/home";
 import {
     BrowserRouter,
     Routes ,
@@ -16,7 +17,7 @@ function App() {
           <Route path='/signup' element={<SignUp/>} />
             <Route path='/login' element={<Login/>} />
             <Route path='/link' element={<ViewLink/>} />
-            <Route path='/' element={<MyLinks/>} />
+            <Route path='/' element={<Home/>} />
         </Routes>
       </BrowserRouter>
   );
