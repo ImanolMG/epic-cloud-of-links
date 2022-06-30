@@ -1,5 +1,5 @@
 .principal-link{
-    background-image: url('https://cdn.discordapp.com/attachments/948305576302104668/991864895387729920/pexels-gradienta-7135037.jpg');
+    background-image: url('https://cdn.discordapp.com/attachments/948305576302104668/992011451436912730/pexels-bruno-thethe-1910225.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -27,17 +27,17 @@
 }
 #group-buttons{
     position: absolute;
-   right: 0%;
+    right: 0%;
 
 
 }
 #button-guardar{
 
-width: 120px;
+    width: 120px;
     height: 40px;
     border-radius: 38px;
     transform: matrix(1, 0, 0, 1, 0, 0);
-   background-color: #00B6B3;
+    background-color: #00B6B3;
     border: none;
     color: white;
     margin: 0px 10px  0px 0px ;
