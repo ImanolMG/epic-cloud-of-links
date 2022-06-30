@@ -2,6 +2,7 @@ import '../assets/stylesheets/App.css';
 import Login from '../components/Login';
 import SignUp from "./SignUp";
 import ViewLink from "./viewLink";
+import Header from "./Header";
 import {
     BrowserRouter,
     Routes ,
@@ -13,7 +14,8 @@ function App() {
         <Routes>
           <Route path='/signup' element={<SignUp/>} />
             <Route path='/login' element={<Login/>} />
-            <Route path='/' element={<ViewLink/>} />
+            <Route path='/link' element={<ViewLink/>} />
+            <Route path='/' element={<Header/>} />
         </Routes>
       </BrowserRouter>
   );
