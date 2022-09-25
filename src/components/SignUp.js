@@ -157,7 +157,7 @@ class SignUp extends React.Component{
                                     </button >
                                     <label  className="form-label text-center" >Ya tienes una cuenta?
 
-                                        <Link to='/'>
+                                        <Link to='/login'>
                                             <label class="text-primary"> Iniciar Sesion</label>
                                     </Link>
                                     </label>

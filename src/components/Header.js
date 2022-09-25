@@ -7,8 +7,8 @@ class Header extends React.Component{
     render() {
         return(
             <header>
-                <div>
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div id="header-component">
+                    <nav className="navbar navbar-expand-lg ">
                         <div className="container-fluid">
                             {/*<Link to='/main' class="d-grid gap-2">*/}
                                 <button className="btn navbar-brand" type="button"> <img  src="https://cdn.discordapp.com/attachments/948305576302104668/992018875514363945/unknown.png"  alt="..." width="90" height="90"/></button>
@@ -18,7 +18,7 @@ class Header extends React.Component{
 
                                     <div className="btn-group dropstart navbar-brand">
 
-                                        <form className="d-flex">
+                                        <form  id="search-component"className="d-flex">
                                             <input className="form-control me-2" type="search" placeholder="Buscar..."
                                                    aria-label="Search">
                                             </input>
@@ -73,36 +73,6 @@ class Header extends React.Component{
 
 
 
-                <div>
-
-                    <nav className="navbar navbar-expand-lg navbar-light bg-light " >
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            {/*    <li className="nav-item">
-                                    <Link to='/main' class="d-grid gap-2">   <a className="nav-link active" aria-current="page" href="#">
-
-                                        <button type="button" className="btn ">
-
-                                            <img  src={IconHome}  alt="..." width="40" height="40"/>
-                                        </button>  Inicio </a></Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link to='/lugarespage'>
-                                        <a className="nav-link active" aria-current="page" href="#">
-                                            <button type="button" className="btn ">
-                                                <img  src={IconPlace}  alt="..." width="40" height="40"/>
-                                            </button>   Turismo  </a>
-                                    </Link>
-                                </li>*/}
-
-                            </ul>
-                        </div>
-
-
-
-                    </nav>
-
-                </div>
 
             </header>
         )
